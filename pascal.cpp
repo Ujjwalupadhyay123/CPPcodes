@@ -7,8 +7,8 @@ cin >> n;
 
 for(i=0; i<n; i++)
 {
-for(x=1; x <= n-i; x++)
-cout << " " ;
+// for(x=1; x <= n-i; x++)
+// cout << " " ;
 
 for(j=0; j <= i; j++)
 {
