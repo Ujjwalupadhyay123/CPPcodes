@@ -1,9 +1,8 @@
 #include<iostream>
 using namespace std;
-int main(){
- int n,i=2,flag;
- cin>>n;
- while(i<=n){
+void printprimes(int n){
+  int i=2,flag;
+while(i<=n){
       int j=2;
       flag=1;
        while(j<=i/2){
@@ -18,5 +17,10 @@ int main(){
        }
    ++i;
  }
+}
+int main(){
+ int n;
+ cin>>n;
+ printprimes(n);
   return 0;
 }
